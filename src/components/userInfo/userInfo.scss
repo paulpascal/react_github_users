@@ -1,0 +1,35 @@
+.info {
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 25%);
+    padding: 35px 25px 16px 25px;
+    &__wrapper {
+        display: flex;
+        gap: 40px;
+        margin-top: 20px;
+    }
+    &__login {
+        padding: 10px;
+        text-align: center;
+        background-color: #3a7ee4;
+    }
+    &__img {
+        width: 100px;
+        img {
+            width: 100%;
+        }
+    }
+    &__link {
+        color: #3a7ee4;
+    }
+}
+
+.followers {
+    display: flex;
+    &__img {
+        width: 20px;
+        img {
+            width: 100%;
+        }
+    }
+}
